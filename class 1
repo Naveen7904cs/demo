@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Font Awesome Icons</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        width: 320px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .profile {
+        font-size: 70px;
+        color: #0d6efd;
+        margin-bottom: 15px;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .social i {
+        font-size: 25px;
+        margin: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .fa-facebook {
+        color: #1877f2;
+      }
+
+      .fa-instagram {
+        color: #e1306c;
+      }
+
+      .fa-github {
+        color: #000;
+      }
+
+      .fa-linkedin {
+        color: #0a66c2;
+      }
+
+      .social i:hover {
+        transform: scale(1.2);
+      }
+
+      button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #0d6efd;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #084298;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <i class="fa-solid fa-user profile"></i>
+
+      <h2>Pari</h2>
+
+      <p>UI Developer</p>
+
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+
+      <button><i class="fa-solid fa-download"></i> Download CV</button>
+    </div>
+  </body>
+</html>
